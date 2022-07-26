@@ -1,0 +1,42 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #52dbc2, #8e9cdd);
+  color: #222;
+}
+.container {
+  flex-direction: column;
+  background-color: rgb(250, 248, 248);
+  border-radius: 5px;
+}
+.title {
+  font-size: 25px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  padding: 15px;
+  background-color: #222;
+  color: white;
+  letter-spacing: 3px;
+}
+#show-results {
+  padding: 15px;
+}
+.result {
+  margin-bottom: 7px;
+}
+
+.key {
+  text-transform: capitalize;
+  color: rgb(2, 48, 48);
+}
+.value {
+  color: rgb(3, 80, 80);
+}
+.equal {
+  color: rgb(236, 73, 73);
+}
