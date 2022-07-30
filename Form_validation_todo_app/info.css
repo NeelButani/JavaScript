@@ -1,0 +1,91 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+.content-table {
+  border-collapse: collapse;
+  min-width: 400px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.content-table thead tr {
+  background-color: #009879;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+.content-table tbody tr td {
+  font-size: 1.3rem;
+}
+.content-table th,
+.content-table td {
+  padding: 15px;
+  min-width: 150px;
+}
+.content-table tbody tr {
+  border-bottom: 1px solid rgb(189, 188, 188);
+}
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #e2e1e1;
+}
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+#email-heading {
+  min-width: 200px;
+}
+/* buttons */
+.edit {
+  background-color: #009879;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.delete {
+  background-color: rgb(248, 69, 69);
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.save {
+  background-color: rgb(50, 123, 171);
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.heading {
+  width: 100vw;
+  height: 100px;
+  margin: 0;
+  text-align: center;
+  background-color: #e2e1e1;
+  box-shadow: 0px 15px 10px -15px #111;
+}
+.heading h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+  color: rgb(52, 50, 50);
+  padding-top: 10px;
+}
+.outer-wrapper {
+  margin-top: 40px;
+}
